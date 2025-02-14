@@ -1,0 +1,49 @@
+experience:
+  - title: Architect - Embedded Logic & Firmware
+    company: ASML at Wilton, CT
+    dates: August 2023 - PRESENT
+    description: Develop and implement architecture and technology roadmaps for hadware(FPGA Logic) to improve commonality and scaleability in both designs and verification.
+
+  - title: Sr. Design Engineer - Embedded Logic & Firmware
+    company: ASML at Wilton, CT
+    dates: November 2021 - August 2023
+    description: Multiple projects from high speed comminication protocols for image transfer and reticle cleanliness analysis to machine damage control logic to prevent brakege of lithography machine and robotics at multiple stages.
+
+  - title: Hardware Engineer - Logic Design & Verification
+    company: L3Harris at Mason, OH
+    dates: March 2018 - November 2021
+    description: Developed space application logic design for radio transimitters, all the way from lower modules, design signoff and lab integration.
+
+  - title: Software Validation Engineer
+    company: Honeywell Aerospace at Aguadilla, PR
+    dates: May 2017 - March 2018
+    description: Verified commercial and military aircraft display systems using automated test frameworks, executed software verification plans, improving test coverage.
+
+  - title: Hardware Engineer - FPGA Logic Design
+    company: Honeywell Aerospace at Aguadilla, PR
+    dates: March 2014 - May 2017
+    description: Developed lower modules for comunication interfaces for central telemetry units that interconnected different protocols. Also developed UVM test benches and verification agents for individual modules and integrated designs.
+
+education:
+  - degree: B.Sc. in Electrical Engineering
+    institution: University of Puerto Rico - Mayaguez, PR
+    dates: August  2007 - December 2013
+
+skills:
+  - Verilog
+  - UVM
+  - VHDL
+  - Embedded Systems
+  - Python
+  - FPGA Design
+  - Digital Signal Processing
+  - MATLAB
+  - Verilator
+  - CoCoTB
+
+contact:
+  email: joserubengarciamatos@gmail.com
+  email: jg-fossh@protonmail.com
+  linkedin: https://linkedin.com/in/josé-garcía-b126b0a6
+  github: https://github.com/jg-fossh
+  website: https://jg-fossh.github.io

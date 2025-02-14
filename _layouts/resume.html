@@ -1,0 +1,67 @@
+
+<div class="resume">
+    <header>
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.description }}</p>
+    </header>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        <p>Website: <a href="{{ site.url }}">{{ site.url }}</a></p>
+        <p>LinkedIn: <a href="{{ site.linkedin }}">{{ site.linkedin }}</a></p>
+        <p>GitHub: <a href="{{ site.github }}">{{ site.github }}</a></p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        {% for job in site.data.resume.experience %}
+        <div class="job">
+            <h3>{{ job.title }}</h3>
+            <p><strong>{{ job.company }}</strong> | {{ job.dates }}</p>
+            <p>{{ job.description }}</p>
+        </div>
+        {% endfor %}
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        {% for edu in site.data.resume.education %}
+        <div class="education">
+            <h3>{{ edu.degree }}</h3>
+            <p><strong>{{ edu.institution }}</strong> | {{ edu.dates }}</p>
+        </div>
+        {% endfor %}
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+        {% for skill in site.data.resume.skills %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+        </ul>
+    </section>
+</div>
+
+<style>
+.resume {
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+.resume h1, .resume h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+.resume a {
+    color: #007acc;
+    text-decoration: none;
+}
+.resume a:hover {
+    text-decoration: underline;
+}
+.job, .education {
+    margin-bottom: 15px;
+}
+</style>
