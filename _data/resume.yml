@@ -1,5 +1,5 @@
 title: Career & Experience
-description: This is very highlevel overview of my past and current roles as an engineer.
+description: This is very high-level overview of my past and current roles as an engineer.
 contact:
   email: joserubengarciamatos@gmail.com
   email_github: jg-fossh@protonmail.com
@@ -10,17 +10,17 @@ experience:
   - title: Architect - Embedded Logic & Firmware
     company: ASML at Wilton, CT
     dates: August 2023 - PRESENT
-    description: Develop and implement architecture and technology roadmaps for hadware(FPGA Logic) to improve commonality and scaleability in both designs and verification.
+    description: Develop and implement architecture and technology road-maps for hardware(FPGA Logic) to improve commonality and scale-ability in both designs and verification.
 
   - title: Sr. Design Engineer - Embedded Logic & Firmware
     company: ASML at Wilton, CT
     dates: November 2021 - August 2023
-    description: Multiple projects from high speed comminication protocols for image transfer and reticle cleanliness analysis to machine damage control logic to prevent brakege of lithography machine and robotics at multiple stages.
+    description: Multiple projects from high speed communication protocols for image transfer and reticle cleanliness analysis to machine damage control logic to prevent downtime of lithography machine and robotics at multiple stages.
 
   - title: Hardware Engineer - Logic Design & Verification
     company: L3Harris at Mason, OH
     dates: March 2018 - November 2021
-    description: Developed space application logic design for radio transimitters, all the way from lower modules, design signoff and lab integration.
+    description: Developed space application logic design for radio transmitters, all the way from lower modules, design sign-off and lab integration.
 
   - title: Software Validation Engineer
     company: Honeywell Aerospace at Aguadilla, PR
@@ -30,7 +30,7 @@ experience:
   - title: Hardware Engineer - FPGA Logic Design
     company: Honeywell Aerospace at Aguadilla, PR
     dates: March 2014 - May 2017
-    description: Developed lower modules for comunication interfaces for central telemetry units that interconnected different protocols. Also developed UVM test benches and verification agents for individual modules and integrated designs.
+    description: Developed lower modules for communication interfaces for central telemetry units that interconnected different protocols. Also developed UVM test benches and verification agents for individual modules and integrated designs.
 
 education:
   - degree: B.Sc. in Electrical Engineering
@@ -48,4 +48,3 @@ skills:
   - MATLAB
   - Verilator
   - CoCoTB
-
